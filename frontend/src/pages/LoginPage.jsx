@@ -182,25 +182,7 @@ export default function LoginPage() {
               </Button>
             </form>
 
-            {/* Quick Demo Login Helpers */}
-            <div className="mt-4 grid grid-cols-2 gap-2">
-              <Button 
-                variant="secondary" 
-                size="sm" 
-                className="text-xs"
-                onClick={() => setForm({ username: "mira", password: "password123" })}
-              >
-                Use Admin (mira)
-              </Button>
-              <Button 
-                variant="secondary" 
-                size="sm" 
-                className="text-xs"
-                onClick={() => setForm({ username: "staff", password: "password123" })}
-              >
-                Use Staff (staff)
-              </Button>
-            </div>
+
 
             {/* Divider */}
             <div className="relative my-6">
